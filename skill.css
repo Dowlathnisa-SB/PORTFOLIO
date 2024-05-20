@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  body {
+      color: #fff;
+      background: black;
+  
+  }
+  .container{
+    display: flex;
+    column-gap: 40px;
+  }
+  .sub-title{
+      text-align: center;
+      font-size: 50px;
+      padding-bottom: 70px;
+      padding-top: 20px;
+      animation: animatesub-title 0.5s ease-out forwards; 
+
+  }
+  .sub-title span{
+      color: #0ef;
+      animation: animatesub-title span 1s ease-out backwards; 
+  }
+  section{
+      display: block;
+      flex-wrap: wrap;
+  }
+  .container1{
+      display: block;
+      width: 600px;
+      height: 50px;
+      padding: 8px 90px;
+      margin-left: 120px;
+      float: left;
+      display: inline-block;
+      animation: animatecontainer1 2.5s ease-out forwards;
+      border-radius: 2px soild white;
+  }
+  .heading{
+      text-align: center;
+      text-decoration:underline;
+      text-underline-offset: 10px;
+      text-decoration-thickness: 5px;
+      margin-bottom: 50px;
+      animation: slideTop 1.5s ease-out forwards; 
+    
+  }
+  .bar{
+      font-size: 23px;
+  
+  }
+  .Technical-bars.bar{
+      margin: 40px 0;
+  }
+  .Technical-bars .bar:first-child{
+      margin-bottom: 0;
+  }
+  .Technical-bars .bar:last-child{
+      margin-bottom: 0;
+  }
+  .Technical-bars.bar .info{
+      margin-bottom: 5px;
+  }
+  .Technical-bars.bar .info span{
+      font-size: 17px;
+      font-weight: 500;
+      animation: showText 0.6s 1s linear forwards;
+      opacity: 0;
+  }
+  .Technical-bars.bar .progress-line{
+      position: relative;
+      border-radius: 10px;
+      width: 100%;
+      height: 5px;
+      background-color: blueviolet;
+      animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+      transform: scaleX(0);
+      transform-origin: left;
+  }
+
+  .progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #0ef;
+    
+  }
+  .progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+ .progress-html {
+    height: 100%;
+    background-color:#0ef;
+    color:black;
+    text-align: center;
+    line-height: 20px;  
+    animation: animateProgress 3s ease-out forwards; 
+  }
+  .progress-bar-html {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-css {
+    height: 100%;
+    background-color:#0ef;
+    color:black;
+    text-align: center;
+    line-height: 20px;
+    animation: animateProgress 4s ease-out forwards; 
+  }
+  .progress-bar-css {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-js{
+    height: 100%;
+    background-color:#0ef;
+    color:black;
+    text-align: center;
+    line-height: 20px; 
+    animation: animateProgress 5s ease-out forwards; 
+  }
+  .progress-bar-js {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-py {
+    height: 100%;
+    background-color:#0ef;
+    color:black;
+    text-align: center;
+    line-height: 20px;
+    animation: animateProgress 6s ease-out forwards; 
+  }
+  .progress-bar-py {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-fg {
+    height: 100%;
+    background-color:#0ef;
+    color:black;
+    text-align: center;
+    line-height: 20px; 
+    animation: animateProgress 7s ease-out forwards; 
+  }
+  .progress-bar-fg {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-flu {
+    height: 100%;
+    background-color:#0ef;
+    color:black;
+    text-align: center;
+    line-height: 20px; 
+    animation: animateProgress 8s ease-out forwards; 
+  }
+  .progress-bar-flu {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container {
+    display: block;
+    grid-template-columns: repeat(2,fr1);
+    justify-content: space-between;
+  }
+  .sub-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skill {
+    margin-bottom: 80px;
+    margin-top: auto;
+    display: block;
+    grid-template-columns: repeat(3,5fr);
+  }
+  
+  .skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+   .skills-container {
+    align-items: left;
+    float :left;
+    display: inline-block;
+    grid-template-columns: repeat(3,5fr);
+    grid-row:span;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-left:500px;
+    padding-bottom: 1000px;  
+    margin-bottom: 500px; 
+    align-items: center;
+
+  } 
+
+.skill1 {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    padding: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.progress-circle {
+    transform: rotate(-90deg);
+    width: 100px;
+    height: 100px;
+}
+
+circle {
+    fill: none;
+    stroke-width: 10;
+}
+
+circle:first-child {
+    stroke: #e6e6e6;
+}
+
+circle.progress {
+    stroke: #0ef;
+    stroke-dasharray: 283; 
+    stroke-dashoffset: 283;
+    transition: stroke-dashoffset 1s linear;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+}
+  
+   @keyframes animateProgress {
+    from {
+      width: 0;
+    }
+    to {
+      width:%; 
+    }
+  }
+  @keyframes slideTop{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+  }
+  @keyframes animatesub-title{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+  }
+  @keyframes animatesub-title span{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+  }
+  @keyframes animatecontainer1 {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+  }
+
